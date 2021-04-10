@@ -3,6 +3,18 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "harbor"
 
+[mediaTypes]
+  [mediaTypes."application/geo+json"]
+    suffixes = ["geojson", "gjson"]
+
+[outputFormats]
+  [outputFormats.GEOJSON]
+    mediaType = "application/geo+json"
+    isPlainText = true
+    isHTML = false
+    baseName = "index"
+    notAlternative = true
+
 [module]
     [[module.mounts]]
         source = "assets/scss"
