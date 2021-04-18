@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "jquery": "^3.6.0",
-    "mirador": "^3.0.0",
-    "ol": "^6.5.0"
+    "jquery": "^3.6.0"
   }
 }
